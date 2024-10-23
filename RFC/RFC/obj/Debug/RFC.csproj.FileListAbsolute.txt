@@ -5,3 +5,4 @@ C:\Users\CC2-PC04\Documents\SharpDevelop Projects\RFC\RFC\obj\Debug\RFC.MainForm
 C:\Users\CC2-PC04\Documents\SharpDevelop Projects\RFC\RFC\obj\Debug\RFC.csproj.GenerateResource.Cache
 C:\Users\CC2-PC04\Documents\SharpDevelop Projects\RFC\RFC\obj\Debug\RFC.exe
 C:\Users\CC2-PC04\Documents\SharpDevelop Projects\RFC\RFC\obj\Debug\RFC.pdb
+C:\Users\CC2-PC04\Documents\SharpDevelop Projects\RFC\RFC\obj\Debug\RFC.Form1.resources

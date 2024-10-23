@@ -10,7 +10,6 @@ using System;
 using System.Collections.Generic;
 using System.Drawing;
 using System.Windows.Forms;
-
 namespace RFC
 {
 	/// <summary>
@@ -18,6 +17,7 @@ namespace RFC
 	/// </summary>
 	public partial class MainForm : Form
 	{
+		string RFC;
 		public MainForm()
 		{
 			//
@@ -37,18 +37,16 @@ namespace RFC
 			txtdireccion.Text="";
 			txtnombre.Text="";
 			txttelefono.Text="";
-			lbRFC.Text="..........";
 		}
 		
 		void BtncalcularClick(object sender, EventArgs e)
 		{
-			string RFC;
 			string a = txtapellido1.Text;
 			string c = txtapellido2.Text;
 			string b = txtnombre.Text;
 			string d = dTPFecha.Value.ToString("dd/MM/yyyy");
 			RFC = a.Substring(0, 2)+c.Substring(0,1)+ b.Substring(0,1)+d.Substring(0, 2)+d.Substring(3, 2)+d.Substring(8, 2);
-			lbRFC.Text=RFC;
+			MessageBox.Show(RFC, b);
 		}
 	}
 }

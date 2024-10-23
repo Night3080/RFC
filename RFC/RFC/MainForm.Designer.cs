@@ -50,8 +50,6 @@ namespace RFC
 			this.comboBox1 = new System.Windows.Forms.ComboBox();
 			this.label7 = new System.Windows.Forms.Label();
 			this.dTPFecha = new System.Windows.Forms.DateTimePicker();
-			this.label8 = new System.Windows.Forms.Label();
-			this.lbRFC = new System.Windows.Forms.Label();
 			this.btnlimpiar = new System.Windows.Forms.Button();
 			this.btncalcular = new System.Windows.Forms.Button();
 			this.label9 = new System.Windows.Forms.Label();
@@ -171,22 +169,6 @@ namespace RFC
 			this.dTPFecha.Size = new System.Drawing.Size(100, 20);
 			this.dTPFecha.TabIndex = 13;
 			// 
-			// label8
-			// 
-			this.label8.Location = new System.Drawing.Point(13, 348);
-			this.label8.Name = "label8";
-			this.label8.Size = new System.Drawing.Size(100, 23);
-			this.label8.TabIndex = 14;
-			this.label8.Text = "RFC:";
-			// 
-			// lbRFC
-			// 
-			this.lbRFC.Location = new System.Drawing.Point(130, 348);
-			this.lbRFC.Name = "lbRFC";
-			this.lbRFC.Size = new System.Drawing.Size(100, 23);
-			this.lbRFC.TabIndex = 15;
-			this.lbRFC.Text = "..........";
-			// 
 			// btnlimpiar
 			// 
 			this.btnlimpiar.Location = new System.Drawing.Point(13, 391);
@@ -223,8 +205,6 @@ namespace RFC
 			this.Controls.Add(this.label9);
 			this.Controls.Add(this.btncalcular);
 			this.Controls.Add(this.btnlimpiar);
-			this.Controls.Add(this.lbRFC);
-			this.Controls.Add(this.label8);
 			this.Controls.Add(this.dTPFecha);
 			this.Controls.Add(this.label7);
 			this.Controls.Add(this.comboBox1);
@@ -247,8 +227,6 @@ namespace RFC
 		private System.Windows.Forms.Label label9;
 		private System.Windows.Forms.Button btncalcular;
 		private System.Windows.Forms.Button btnlimpiar;
-		private System.Windows.Forms.Label lbRFC;
-		private System.Windows.Forms.Label label8;
 		private System.Windows.Forms.DateTimePicker dTPFecha;
 		private System.Windows.Forms.Label label7;
 		private System.Windows.Forms.ComboBox comboBox1;
