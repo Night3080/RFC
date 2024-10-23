@@ -54,11 +54,12 @@ namespace RFC
 			this.lbRFC = new System.Windows.Forms.Label();
 			this.btnlimpiar = new System.Windows.Forms.Button();
 			this.btncalcular = new System.Windows.Forms.Button();
+			this.label9 = new System.Windows.Forms.Label();
 			this.SuspendLayout();
 			// 
 			// label1
 			// 
-			this.label1.Location = new System.Drawing.Point(24, 13);
+			this.label1.Location = new System.Drawing.Point(24, 82);
 			this.label1.Name = "label1";
 			this.label1.Size = new System.Drawing.Size(100, 23);
 			this.label1.TabIndex = 0;
@@ -66,14 +67,14 @@ namespace RFC
 			// 
 			// txtnombre
 			// 
-			this.txtnombre.Location = new System.Drawing.Point(130, 10);
+			this.txtnombre.Location = new System.Drawing.Point(130, 79);
 			this.txtnombre.Name = "txtnombre";
 			this.txtnombre.Size = new System.Drawing.Size(100, 20);
 			this.txtnombre.TabIndex = 1;
 			// 
 			// label2
 			// 
-			this.label2.Location = new System.Drawing.Point(24, 51);
+			this.label2.Location = new System.Drawing.Point(24, 124);
 			this.label2.Name = "label2";
 			this.label2.Size = new System.Drawing.Size(100, 23);
 			this.label2.TabIndex = 2;
@@ -81,14 +82,14 @@ namespace RFC
 			// 
 			// txtapellido1
 			// 
-			this.txtapellido1.Location = new System.Drawing.Point(130, 48);
+			this.txtapellido1.Location = new System.Drawing.Point(130, 121);
 			this.txtapellido1.Name = "txtapellido1";
 			this.txtapellido1.Size = new System.Drawing.Size(100, 20);
 			this.txtapellido1.TabIndex = 3;
 			// 
 			// label3
 			// 
-			this.label3.Location = new System.Drawing.Point(24, 88);
+			this.label3.Location = new System.Drawing.Point(24, 157);
 			this.label3.Name = "label3";
 			this.label3.Size = new System.Drawing.Size(100, 23);
 			this.label3.TabIndex = 4;
@@ -96,14 +97,14 @@ namespace RFC
 			// 
 			// txtapellido2
 			// 
-			this.txtapellido2.Location = new System.Drawing.Point(130, 85);
+			this.txtapellido2.Location = new System.Drawing.Point(130, 154);
 			this.txtapellido2.Name = "txtapellido2";
 			this.txtapellido2.Size = new System.Drawing.Size(100, 20);
 			this.txtapellido2.TabIndex = 5;
 			// 
 			// label4
 			// 
-			this.label4.Location = new System.Drawing.Point(24, 124);
+			this.label4.Location = new System.Drawing.Point(24, 196);
 			this.label4.Name = "label4";
 			this.label4.Size = new System.Drawing.Size(100, 23);
 			this.label4.TabIndex = 6;
@@ -111,14 +112,14 @@ namespace RFC
 			// 
 			// txttelefono
 			// 
-			this.txttelefono.Location = new System.Drawing.Point(130, 121);
+			this.txttelefono.Location = new System.Drawing.Point(130, 193);
 			this.txttelefono.Name = "txttelefono";
 			this.txttelefono.Size = new System.Drawing.Size(100, 20);
 			this.txttelefono.TabIndex = 7;
 			// 
 			// label5
 			// 
-			this.label5.Location = new System.Drawing.Point(24, 160);
+			this.label5.Location = new System.Drawing.Point(24, 228);
 			this.label5.Name = "label5";
 			this.label5.Size = new System.Drawing.Size(100, 23);
 			this.label5.TabIndex = 8;
@@ -126,14 +127,14 @@ namespace RFC
 			// 
 			// txtdireccion
 			// 
-			this.txtdireccion.Location = new System.Drawing.Point(130, 157);
+			this.txtdireccion.Location = new System.Drawing.Point(130, 225);
 			this.txtdireccion.Name = "txtdireccion";
 			this.txtdireccion.Size = new System.Drawing.Size(100, 20);
 			this.txtdireccion.TabIndex = 9;
 			// 
 			// label6
 			// 
-			this.label6.Location = new System.Drawing.Point(24, 196);
+			this.label6.Location = new System.Drawing.Point(24, 267);
 			this.label6.Name = "label6";
 			this.label6.Size = new System.Drawing.Size(100, 23);
 			this.label6.TabIndex = 10;
@@ -149,14 +150,14 @@ namespace RFC
 									"4",
 									"5",
 									"6"});
-			this.comboBox1.Location = new System.Drawing.Point(130, 193);
+			this.comboBox1.Location = new System.Drawing.Point(130, 264);
 			this.comboBox1.Name = "comboBox1";
 			this.comboBox1.Size = new System.Drawing.Size(100, 21);
 			this.comboBox1.TabIndex = 11;
 			// 
 			// label7
 			// 
-			this.label7.Location = new System.Drawing.Point(13, 232);
+			this.label7.Location = new System.Drawing.Point(13, 303);
 			this.label7.Name = "label7";
 			this.label7.Size = new System.Drawing.Size(111, 23);
 			this.label7.TabIndex = 12;
@@ -165,14 +166,14 @@ namespace RFC
 			// dTPFecha
 			// 
 			this.dTPFecha.Format = System.Windows.Forms.DateTimePickerFormat.Short;
-			this.dTPFecha.Location = new System.Drawing.Point(130, 226);
+			this.dTPFecha.Location = new System.Drawing.Point(130, 297);
 			this.dTPFecha.Name = "dTPFecha";
 			this.dTPFecha.Size = new System.Drawing.Size(100, 20);
 			this.dTPFecha.TabIndex = 13;
 			// 
 			// label8
 			// 
-			this.label8.Location = new System.Drawing.Point(13, 266);
+			this.label8.Location = new System.Drawing.Point(13, 348);
 			this.label8.Name = "label8";
 			this.label8.Size = new System.Drawing.Size(100, 23);
 			this.label8.TabIndex = 14;
@@ -180,7 +181,7 @@ namespace RFC
 			// 
 			// lbRFC
 			// 
-			this.lbRFC.Location = new System.Drawing.Point(130, 266);
+			this.lbRFC.Location = new System.Drawing.Point(130, 348);
 			this.lbRFC.Name = "lbRFC";
 			this.lbRFC.Size = new System.Drawing.Size(100, 23);
 			this.lbRFC.TabIndex = 15;
@@ -188,7 +189,7 @@ namespace RFC
 			// 
 			// btnlimpiar
 			// 
-			this.btnlimpiar.Location = new System.Drawing.Point(13, 293);
+			this.btnlimpiar.Location = new System.Drawing.Point(13, 391);
 			this.btnlimpiar.Name = "btnlimpiar";
 			this.btnlimpiar.Size = new System.Drawing.Size(75, 23);
 			this.btnlimpiar.TabIndex = 16;
@@ -198,7 +199,7 @@ namespace RFC
 			// 
 			// btncalcular
 			// 
-			this.btncalcular.Location = new System.Drawing.Point(154, 293);
+			this.btncalcular.Location = new System.Drawing.Point(155, 391);
 			this.btncalcular.Name = "btncalcular";
 			this.btncalcular.Size = new System.Drawing.Size(75, 23);
 			this.btncalcular.TabIndex = 17;
@@ -206,11 +207,20 @@ namespace RFC
 			this.btncalcular.UseVisualStyleBackColor = true;
 			this.btncalcular.Click += new System.EventHandler(this.BtncalcularClick);
 			// 
+			// label9
+			// 
+			this.label9.Location = new System.Drawing.Point(34, 9);
+			this.label9.Name = "label9";
+			this.label9.Size = new System.Drawing.Size(184, 23);
+			this.label9.TabIndex = 18;
+			this.label9.Text = "Inserte los datos solicitados por favor";
+			// 
 			// MainForm
 			// 
 			this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
 			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-			this.ClientSize = new System.Drawing.Size(261, 344);
+			this.ClientSize = new System.Drawing.Size(259, 452);
+			this.Controls.Add(this.label9);
 			this.Controls.Add(this.btncalcular);
 			this.Controls.Add(this.btnlimpiar);
 			this.Controls.Add(this.lbRFC);
@@ -234,6 +244,7 @@ namespace RFC
 			this.ResumeLayout(false);
 			this.PerformLayout();
 		}
+		private System.Windows.Forms.Label label9;
 		private System.Windows.Forms.Button btncalcular;
 		private System.Windows.Forms.Button btnlimpiar;
 		private System.Windows.Forms.Label lbRFC;
